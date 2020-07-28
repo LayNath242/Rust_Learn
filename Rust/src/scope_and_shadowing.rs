@@ -21,7 +21,7 @@ fn scope_and_shadowing() {
 
 }
 
-fn main() {
+pub fn scope_gobal() {
     scope_and_shadowing();
     println!("{}", LIFE);
     println!("{}", S);

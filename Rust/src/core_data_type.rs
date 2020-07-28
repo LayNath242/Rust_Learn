@@ -1,6 +1,6 @@
 use std::mem::size_of_val;
 
-fn main() {
+pub fn core_data_type() {
     let a:u8 = 100; //8 bit unsigned integer
     println!("a = {}", a);
 

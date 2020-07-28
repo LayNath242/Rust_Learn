@@ -1,6 +1,6 @@
 use std::f32::consts::PI;
 
-fn operator() {
+pub fn operator() {
     let mut a = 2+8*4/3;
     println!("value of a = {}", a);
 
@@ -27,9 +27,4 @@ fn operator() {
     let two_to_10 = 2 << 3;
 
     println!("two_to_10 = {}", two_to_10);
-}
-
-
-fn main(){
-    operator()
 }
